@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/lucasescperes/simple_nodejs_typescript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "nodejs"],
+  "author": "Lucas Escobar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucasescperes/simple_nodejs_typescript/issues"
