@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-boolean-literal-compare": true,
+    "variable-name": {
+      "options":["allow-pascal-case", "allow-leading-underscore", "check-format"]
+    },
+    "semicolon": [true, "never"],
+    "no-trailing-whitespace": true,
+    "max-line-length": [true, 120],
+    "ter-arrow-parens": false,
+    "trailing-comma": false,
+    "align": [false, "parameters", "statements"],
+    "object-literal-key-quotes": false,
+    "object-literal-shorthand": false,
+    "no-parameter-reassignment": false,
+    "brace-style": false,
+    "object-curly-spacing": true,
+    "no-increment-decrement": false,
+    "ban-ts-ignore": true
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ]
+}
